@@ -1,0 +1,25 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $color-grey-dark;
+  padding: 2% 20%;
+}
+
+.heading-primary {
+  color: $color-grey-dark;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.heading-secondary {
+  color: $color-grey-dark;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: $color-grey-light;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  &:not(:first-child) {
+    margin-top: 4rem;
+  }
+}
